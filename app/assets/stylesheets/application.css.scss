@@ -16,6 +16,8 @@
  
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 .home-callout {
   margin-top: -20px;
@@ -35,14 +37,7 @@
   border-radius:0;
 }
 
-.navbar-default .navbar-brand {
-  color:white;
-  &:hover {
-    color:white;
-    opacity:0.75;
-  }
-}
-
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a{
   color:white;
   &:hover {
