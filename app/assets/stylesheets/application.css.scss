@@ -54,6 +54,16 @@
 //   background: rgba(221,221,221,.5);
 // }
 
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background: #00a6ff;
+  }
+  .icon-bar {
+    background:white;
+  }
+}
+
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
