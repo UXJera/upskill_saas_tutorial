@@ -19,6 +19,8 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+// HOME STYLE LINKS
+
 .home-callout {
   margin-top: -20px;
   padding: 50px 0 100px;
@@ -30,6 +32,10 @@
   background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-signup-links {
+  margin-top: 30px;
 }
 
 .navbar {
