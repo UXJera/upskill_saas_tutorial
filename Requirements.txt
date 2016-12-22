@@ -6,3 +6,9 @@ Choose directly from the home page that these plans, so point to it.
 * User should see link for Pro plan on home page
 * Basic plan should point to regular Devise sign up form
 * Pro plan should be a custom build page
+
+ActiveRecord
+Parameters (params)
+Substitution
+
+ActiveRecord is rails way of querying up the database
