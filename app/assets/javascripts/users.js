@@ -4,7 +4,7 @@
 
 $(document).on('turbolinks:load', function(){
   var theForm   = $('#pro_form'),
-      submitBtn = $('#form-submit-btn');
+      submitBtn = $('#form-signup-btn');
   // Set Stripe public key - needed to be done before it is sent to Stripe
   Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
   // When user clicks 'form submit'
